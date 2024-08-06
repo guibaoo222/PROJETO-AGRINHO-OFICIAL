@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pegada Ecológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Pegada Ecológica</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <form id="eco-form">
+                <div class="form-group">
+                    <label for="consumo-agua">Consumo de Água (litros por dia):</label>
+                    <input type="number" id="consumo-agua" required>
+                    <p class="info-text">Informe a quantidade de água que você consome diariamente em litros.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="consumo-energia">Consumo de Energia (kWh por dia):</label>
+                    <input type="number" id="consumo-energia" required>
+                    <p class="info-text">Informe o consumo diário de energia elétrica em kWh.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="quilometros-carro">Quilômetros percorridos de carro por dia:</label>
+                    <input type="number" id="quilometros-carro" required>
+                    <p class="info-text">Informe a média de quilômetros que você percorre de carro diariamente.</p>
+                </div>
+
+                <button type="submit">Calcular</button>
+            </form>
+
+            <div id="resultado"></div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">
+            A Calculadora de Pegada Ecológica é uma ferramenta crucial para conscientizar as pessoas sobre o impacto ambiental de suas atividades diárias, como consumo de água, energia e transporte. Ela educa os usuários sobre a relação direta entre suas escolhas e o meio ambiente, incentivando práticas mais sustentáveis. Além de promover responsabilidade ambiental individual, a ferramenta também pode influenciar políticas públicas e estratégias corporativas, contribuindo para um futuro mais verde. Em resumo, é um instrumento poderoso para educação e transformação rumo a uma sociedade mais consciente e sustentável.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
